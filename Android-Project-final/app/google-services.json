@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "107422344606",
+    "firebase_url": "https://kandy-cupcakes-c327a.firebaseio.com",
+    "project_id": "kandy-cupcakes-c327a",
+    "storage_bucket": "kandy-cupcakes-c327a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107422344606:android:796b78926bc5b22337a28f",
+        "android_client_info": {
+          "package_name": "com.cupcakes.kandycupcakes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107422344606-ci6rehfrh9b40kf503kl7878arei1sah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cupcakes.kandycupcakes",
+            "certificate_hash": "476718b1ab27c3b52cb459fc5f883ffcccbe9e5b"
+          }
+        },
+        {
+          "client_id": "107422344606-7f9pcklav0ag8iavv0e0t5iibig0927d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi2uHctvZiprXNFQ298YqgwjZMzQa-ExI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107422344606-7f9pcklav0ag8iavv0e0t5iibig0927d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

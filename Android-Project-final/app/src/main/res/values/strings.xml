@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Kandy Cars</string>
+    <string name="fill">Please Fill the Field </string>
+    <string name="invalid">Please enter the correct input</string>
+
+    <string-array name="transmission">Select Transmission
+
+        <item>Select One</item>
+        <item>Auto</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="availability">Select Transmission
+
+        <item>Select One</item>
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string name="self_drive">Self Drive</string>
+    <string name="air">Air Conditioned</string>
+    <string name="Passenger">Passengers</string>
+    <string name="Trans">Transmission</string>
+    <string name="bag">Bag(s)</string>
+
+    <string name="btnchoose">CHOOSE IMAGE</string>
+    <string name="btnadd">ADD</string>
+    <string name="btnupdate">UPDATE</string>
+
+
+
+
+
+
+    <string name="add_faq">Add FAQ</string>
+    <string name="enter_question">Enter question</string>
+    <string name="enter_answer">Enter answer</string>
+    <string name="questionList">TextView</string>
+    <string name="answerList">TextView</string>
+    <string name="update">UPDATE</string>
+    <string name="update_question">Update question</string>
+    <string name="update_answer">Update answer</string>
+    <string name="delete">DELETE</string>
+    <string name="manage_faq">Manage FAQ</string>
+    <string name="confirm">If your details are correct please press the confirm button </string>
+    <string name="invalid_name">Enter a valid Name</string>
+    <string name="invalid_mobile">Enter a valid Mobile Number</string>
+    <string name="invalid_nic">"Enter a valid NIC "</string>
+    <string name="invalid_bdate">Select a Date</string>
+    <string name="invalid_rdate">Select a Date</string>
+
+
+
+    <string name="name">Name</string>
+    <string name="nic">NIC</string>
+    <string name="mobile">Mobile</string>
+    <string name="bdate">Booking Date</string>
+    <string name="rdate">Return Date</string>
+    <string name="selectpaymentmethod">Select Payment Method</string>
+    <string name="bookingdetails">Bookung Details</string>
+    <string name="selfdrive">Self Drive</string>
+    <string name="aircond">Air Conditioned</string>
+    <string name="passenger">Passengers</string>
+    <string name="trans">Transmission</string>
+    <string name="Bags">Bag(s)</string>
+    <string name="booknow">Book Now!</string>
+    <string name="rs">Rs.</string>
+    <string name="perday">0/= Per Day</string>
+
+
+    <string name="cash">Cash Payment</string>
+    <string name="credit">Card Payment</string>
+
+    <string name="vehical">Vehical ID</string>
+    <string name="NIC">Customer NIC</string>
+    <string name="date">Booked Date</string>
+    <string name="amount">Total Amount</string>
+
+    <string name="card">Credit card number</string>
+    <string name="cvv">CVV number</string>
+
+    <string name="state">Paid state</string>
+
+
+</resources>

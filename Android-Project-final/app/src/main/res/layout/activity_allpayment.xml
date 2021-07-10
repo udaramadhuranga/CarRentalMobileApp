@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".IT19210520.allpayment">
+
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="399dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="507dp"
+        android:src="@drawable/car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="522dp"
+        android:text="All Payments"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="461dp"
+        android:text="find a payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="427dp"
+        android:layout_height="322dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="62dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="323dp"
+        android:layout_marginBottom="408dp"
+        android:text="NIC"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="406dp"
+        android:text="date"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="59dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="407dp"
+        android:text="@string/amount"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="63dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="405dp"
+        android:text="Paid state"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="405dp"
+        android:text="paid method"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
